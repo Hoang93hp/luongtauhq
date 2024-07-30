@@ -104,8 +104,8 @@ function ket_qua() {
 	document.getElementById("bao_hiem").innerHTML = Math.round(-0.08 * (luongchinh + luongcoban * hesochucvu + kqthamnien/100 * (luongchinh + luongcoban * hesochucvu)));
 	
 	//Tiền ăn
-	document.getElementById("an").innerHTML = Math.round(-so_ngay_an * 65700);
+	document.getElementById("an").innerHTML = Math.round(-so_ngay_an * 68360);
 
 	//Tổng tiền nhận được về thẻ
-	document.getElementById("tong").innerHTML = Math.round(luongchinh + (luongcoban * hesochucvu) + (luongcoban * hesotrachnhiem) + (0.5 * (luongchinh + luongcoban * hesochucvu)) + (0.4 * luongcoban) + (he_so_tau_hai_quan * luongcoban) + (kqthamnien/100 * (luongchinh + luongcoban * hesochucvu)) + (-0.08 * (luongchinh + luongcoban * hesochucvu + kqthamnien/100 * (luongchinh + luongcoban * hesochucvu))) + (-so_ngay_an * 65700));
+	document.getElementById("tong").innerHTML = Math.round(luongchinh + (luongcoban * hesochucvu) + (luongcoban * hesotrachnhiem) + (0.5 * (luongchinh + luongcoban * hesochucvu)) + (0.4 * luongcoban) + (he_so_tau_hai_quan * luongcoban) + (kqthamnien/100 * (luongchinh + luongcoban * hesochucvu)) + (-0.08 * (luongchinh + luongcoban * hesochucvu + kqthamnien/100 * (luongchinh + luongcoban * hesochucvu))) + (-so_ngay_an * 68360));
 }
