@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: sans-serif , serif;
+    text-align: center;
+}
+
+p {
+    text-align: left;
+  }
+  
+.khoang_trong{
+    display: block;
+    margin-bottom: 15px;
+    color: #516EAB;
+}
+
+.khoang_trong_lon{
+    display: block;
+    margin-bottom: 15px;
+    color: #516EAB;
+}
+
+#container {
+    max-width: 480px;
+    position: relative;
+    left: 0;
+    transform: translateX(0);
+  }
+
+#data_nhap_vao{
+    background-color: #516EAB;
+    border-radius: 25px;
+    padding-bottom: 25px;
+}
+
+#tyle4060{
+    display: grid;
+    grid-template-columns: 40% 50%;
+    align-items: center;
+}
+
+
+#thoi_gian_nhap_ngu{
+    display: grid;
+    grid-template-columns: 40% 30% 30%;
+    align-items: center;
+}
+
+#tyle40300{
+    display: grid;
+    grid-template-columns: 40% 50%;
+    align-items: center;
+}
+
+#chuc_vu{
+    display: grid;
+    grid-template-columns: 40% 30%;
+    align-items: center;
+}
+
+#ketquadinhdang1{
+    display: grid;
+    grid-template-columns: 60% 20%;
+    align-items: center;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.dinhdangketquatien{
+    text-align: right;
+    font-size: 16px;
+}
+
+.tieu_de{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    padding: 20px 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.danh_sach{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    padding-right: 5px;
+    padding-left: 5px;
+    line-height: 1.2;
+}
+
+.danh_sachxt{
+    color: #1C2C59;
+    font-size: 16px;
+    padding-right: 10px;
+    padding-left: 20px;
+}
+
+.tieu_dext{
+    color: #1C2C59;
+    font-size: 18px;
+    padding: 20px 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+input[type=text] {
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: 2px solid #205F8B;
+    height: 30px;
+    padding: 12px 20px;
+    margin-right: 20px;
+    outline: none;
+    text-align: left;
+    font-size: 16px;
+}
+
+
+input[type=text]:focus {
+    border: 2px solid #4988ed;
+}
+
+input[type=number] {
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: 2px solid #205F8B;
+    height: 30px;
+    padding: 12px 20px;
+    margin-right: 20px;
+    outline: none;
+    text-align: left;
+    font-size: 16px;
+    color: black;
+}
+
+
+input[type=number]:focus {
+    border: 2px solid #4988ed;
+    color: black;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    appearance: none;
+    margin: 0;
+}
+
+select{
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: 2px solid #205F8B;
+    height: 30px;
+    width: fit-content;
+    max-width: 100%;
+    outline: none;
+    text-align: left;
+    font-size: 16px;
+    color: #555;
+}
+
+
+select:hover{
+    border: 2px solid #4988ed;
+    color: black;
+}
+
+#ket_qua{
+    background-color: white;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    height: 0px;
+}
+
+.button{
+    background-color: #516EAB;
+    margin: 20px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition-duration: 0s;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.button:hover {
+    background-color: #3366d3;
+    border: 2px solid #516EAB;
+}
+
