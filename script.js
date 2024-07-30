@@ -67,7 +67,7 @@ function ket_qua() {
 	let hesotrachnhiem = isNaN(hesotrachnhiemnhapvao) ? 0 : hesotrachnhiemnhapvao;
 
 	//lương chính
-	let luongcoban = 1800000;
+	let luongcoban = 2340000;
 	let luongchinh = heso * luongcoban;
 
 	//In ra kết quả
